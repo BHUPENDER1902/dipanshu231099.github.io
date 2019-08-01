@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/animsition.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+    
+</head>
+<body>
+    <!-- Page preloader wrap
+	================================================== -->
+
+	<div class="animsition">
+		
+            <!-- Nav and Logo
+            ================================================== -->
+            
+            <header class="cd-header">
+                <div class="header-wrapper">
+                    <div class="logo-wrap">
+                        <img src="photos/logo .png" alt=""><span>Rann Neeti</span>
+                    </div>
+                    <div class="nav-but-wrap">
+                        <div class="menu-icon cursor-link">
+                            <span class="menu-icon__line menu-icon__line-left"></span>
+                            <span class="menu-icon__line"></span>
+                            <span class="menu-icon__line menu-icon__line-right"></span>
+                        </div>					
+                    </div>					
+                </div>				
+            </header>
+    
+            <div class="nav">
+                    <div class="nav__content">
+                        <ul class="nav__list">
+                            <li class="nav__list-item active-nav"><a href="index.html" class="cursor-link" role="button" aria-expanded="false" aria-controls="collapseSub">HOME</a>
+                            </li>
+                            <li class="nav__list-item"><a href="team.html" class="cursor-link animsition-link">TEAM</a></li>
+                            <li class="nav__list-item"><a href="gallery.html" class="cursor-link animsition-link">GALLERY</a></li>
+                        </ul>
+                    </div>
+                </div>
+	</div>
+
+	<div class="section full-height over-hide background-dark-2">
+    <div class="main" style="position: absolute;left: 30%;top: 20%;">
+
+        <div class="container">
+            <div class="booking-content">
+                <div class="booking-image">
+                </div>
+                <div class="booking-form">
+                    <form id="booking-form">
+                        <h2>Booking your Accomodation</h2>
+                        <br>
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                     <span class="input-group-text" id="inputGroup-sizing-default">Your Name</span>
+                                </div>
+                                <input type="text" name="name" id="name" value="" class="form-control" style="background: rgb(36, 36, 36);" aria-label="Default" aria-describedby="inputGroup-sizing-default" required/>
+                        </div>
+
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                     <span class="input-group-text" id="inputGroup-sizing-default">Contact number</span>
+                                </div>
+                                <input type="number" name="phone" id="phone" value="" class="form-control" style="background: rgb(36, 36, 36);" aria-label="Default" aria-describedby="inputGroup-sizing-default" required/>
+                        </div>
+                        
+                       <div class="form-group">
+                            <div class="select-list">
+                                <label for="time">Select time (select one):</label>
+                                <select style="background: rgb(36, 36, 36);" class="form-control" name="time" id="time" required>
+                                    <option value="6pm">6:00 PM</option>
+                                    <option value="7pm">7:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="select-list">
+                                <label for="events">Select time (select one):</label>
+                                <select style="background: rgb(36, 36, 36);" class="form-control" name="events" id="events" required>
+                                    <option value="">Events</option>
+                                    <option value="VolleyBall">VolleyBall</option>
+                                    <option value="BasketBall">BasketBall</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                     <span class="input-group-text" id="inputGroup-sizing-default">Number of people</span>
+                                </div>
+                                <input type="number" name="number_people" value="" class="form-control" style="background: rgb(36, 36, 36);" aria-label="Default" aria-describedby="inputGroup-sizing-default" required/>
+                        </div>
+
+
+                        <!-- <div class="form-radio">
+                            <label class="label-radio"> How Many No. Of People</label>
+                            <div class="radio-item-list">
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="2" id="number_people_2" />
+                                    <label for="number_people_2" class="radio-inline">2</label>
+                                </span>
+                                <span class="radio-item active">
+                                    <input type="radio" name="number_people" value="4" id="number_people_4" checked="checked" />
+                                    <label for="number_people_4" class="radio-inline">4</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="6" id="number_people_6" />
+                                    <label for="number_people_6" class="radio-inline">6</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="8" id="number_people_8" />
+                                    <label for="number_people_8" class="radio-inline">8</label>
+                                </span>
+                                <span class="radio-item">
+                                    <input type="radio" name="number_people" value="10" id="number_people_10" />
+                                    <label for="number_people_10" class="radio-inline">10</label>
+                                </span>
+                            </div>
+                        </div> -->
+
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary btn btn-block" id="submit" name="submit">Book Now</button>
+                            <br>
+                            <a href="#" class="vertify-booking">Verify your booking info from your phone</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div></div>
+
+    
+
+    <!-- Page cursor
+	================================================== -->
+	
+	<div class="cursor cursor-shadow"></div>
+    <div class="cursor cursor-dot"></div>
+    
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+<!-- JS -->
+<script src="./js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.js"></script> 
+<script src="js/custom.js"></script>  
+
+
+
+</html>
